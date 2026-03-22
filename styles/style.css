@@ -24,3 +24,149 @@ nav {
   border-radius: 6px;
   cursor: pointer;
 }
+.hero{
+  background-image: url("/assets/hero-bg.png");
+  width: 1600px;
+  height: 674px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+.p{
+   font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+.h{
+  font-size: 64px;
+  font-weight: bold;
+  color: white;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.h2{
+   font-size: 64px;
+  font-weight: bold;
+  color: green;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.button .btn{
+  background: #3a7d44;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button .btn2{
+  
+  border: 1px solid white;
+  padding: 14px 28px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.problems{
+  padding: 80px 60px;
+  text-align: center;
+}
+.problems h2{
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.cards{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+
+}
+.cards .card{
+  border-radius: 12px;
+  padding: 28px 20px;
+  max-width: 220px;
+  text-align: center;
+  
+
+}
+
+
+
+.card h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.card p{
+    font-size: 13px;
+    color: gray;
+    line-height: 1.6;
+
+}
+.solution{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 80px 60px;
+}
+.solution img{
+  width: 400px;
+
+}
+.rightside h3{
+   font-size: 12px;
+    font-weight: 600;
+    color: #3a7d44;
+}
+.rightside h2{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 12px 0 16px;
+
+}
+.rightside p{
+   color: gray;
+    font-size: 15px;
+    margin-bottom: 24px;
+}
+.solutionlist{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.check{
+  font-weight: bold;
+  color: #3a7d44;
+}
+.think-clear{
+  background-color:  #f1f5f1;
+  text-align: center;
+  padding: 60px 40px;
+  margin: 60px 80px;
+  border-radius: 16px;
+  
+
+}
+.footer-container{
+    background: #0d1f2d;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.social{
+  color: white;
+  text-decoration: none;
+
+}
+.footer-bottom{
+  color: #f1f5f1 ;
+  
+}
+
+

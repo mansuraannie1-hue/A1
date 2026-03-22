@@ -25,15 +25,19 @@ nav {
   cursor: pointer;
 }
 .hero{
-  background-image: url("/assets/hero-bg.png");
-  width: 1600px;
-  height: 674px;
+  background-image: url("../assets/hero-bg.png");
+  min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(10, 30, 40, 0.80);
+  background-blend-mode: overlay;
 }
+
+
 .p{
    font-size: 18px;
   line-height: 1.6;
